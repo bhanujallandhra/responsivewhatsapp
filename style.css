@@ -1,0 +1,208 @@
+/* CUSTOM CSS */
+.navbar-brand img{
+    width: 35%;
+}
+.user-profile-img {
+    width: 74px;
+}
+.single-page .contact-profile {
+    top: 15px;
+    left: 125px;
+}
+.single-page .contact-profile p{
+    margin-bottom: 0;
+}
+.msg-wrap {
+    margin-top: 110px;
+}
+.row.unread {
+    font-weight: 700;
+}
+.row .text-content {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+@media screen and (max-width: 735px) {
+    #wrapper .content {
+        width: 100%;
+        min-width: 300px !important;
+    }
+}
+@media screen and (min-width: 900px) {
+
+}
+
+#wrapper .content .messages {
+    height: auto;
+    min-height: calc(100% - 93px);
+    max-height: calc(100% - 93px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+@media screen and (max-width: 735px) {
+    #wrapper .content .messages {
+        max-height: calc(100% - 105px);
+    }
+}
+#wrapper .content .messages::-webkit-scrollbar {
+    width: 8px;
+    background: transparent;
+}
+#wrapper .content .messages::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#wrapper .content .messages ul li {
+    display: inline-block;
+    clear: both;
+    float: left;
+    margin: 15px 15px 5px 15px;
+    width: calc(100% - 25px);
+    font-size: 0.9em;
+}
+#wrapper .content .messages ul li:nth-last-child(1) {
+    margin-bottom: 20px;
+}
+#wrapper .content .messages ul li.sent img {
+    margin: 6px 8px 0 0;
+}
+#wrapper .content .messages ul li.sent p {
+    background: #435f7a;
+    color: #f5f5f5;
+}
+#wrapper .content .messages ul li.replies img {
+    float: right;
+    margin: 6px 0 0 8px;
+}
+#wrapper .content .messages ul li.replies p {
+    background: #f5f5f5;
+    float: right;
+}
+#wrapper .content .messages ul li img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+#wrapper .content .messages ul li p {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 205px;
+    line-height: 130%;
+}
+@media screen and (min-width: 735px) {
+    #wrapper .content .messages ul li p {
+        max-width: 300px;
+    }
+}
+#wrapper .content .message-input {
+    position: absolute;
+    bottom: 5px;
+    width: 99%;
+    z-index: 99;
+    border-top: 1px solid;
+}
+#wrapper .content .message-input .wrap {
+    position: relative;
+}
+#wrapper .content .message-input .wrap input {
+    font-family: "proxima-nova",  "Source Sans Pro", sans-serif;
+    float: left;
+    border: none;
+    width: calc(100% - 90px);
+    padding: 11px 32px 10px 8px;
+    font-size: 0.8em;
+    color: #32465a;
+}
+@media screen and (max-width: 735px) {
+    #wrapper .content .message-input .wrap input {
+        padding: 15px 32px 16px 8px;
+    }
+}
+#wrapper .content .message-input .wrap input:focus {
+    outline: none;
+}
+#wrapper .content .message-input .wrap .attachment {
+    position: absolute;
+    right: 60px;
+    z-index: 4;
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #435f7a;
+    opacity: .5;
+    cursor: pointer;
+}
+@media screen and (max-width: 735px) {
+    #wrapper .content .message-input .wrap .attachment {
+        margin-top: 17px;
+        right: 65px;
+    }
+}
+#wrapper .content .message-input .wrap .attachment:hover {
+    opacity: 1;
+}
+#wrapper .content .message-input .wrap button {
+    float: right;
+    border: none;
+    width: 50px;
+    padding: 12px 0;
+    cursor: pointer;
+    background: #32465a;
+    color: #f5f5f5;
+}
+@media screen and (max-width: 735px) {
+    #wrapper .content .message-input .wrap button {
+        padding: 16px 0;
+    }
+}
+#wrapper .content .message-input .wrap button:hover {
+    background: #435f7a;
+}
+#wrapper .content .message-input .wrap button:focus {
+    outline: none;
+}
+
+.profile-img-upload div {
+    top: 85px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#image-preview {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #ecf0f1;
+}
+#image-preview input {
+    line-height: 200px;
+    font-size: 200px;
+    position: absolute;
+    opacity: 0;
+    z-index: 10;
+}
+#image-preview label {
+    position: absolute;
+    z-index: 5;
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #bdc3c7;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+/*
+   Margin & Padding
+ */
+.w50 {
+    width: 50%;
+}
